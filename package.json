@@ -1,0 +1,27 @@
+{
+  "name": "sk-dev-boilerplate-2018",
+  "version": "1.1.0",
+  "description": "my boilerplate for current web dev workflow",
+  "private": true,
+  "author": "Simon Kilmore",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "css-mqpacker": "^6.0.2",
+    "cssnano": "^3.10.0",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-mozjpeg": "^7.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "postcss-uncss": "^0.16.1",
+    "uncss": "^0.16.1"
+  }
+}

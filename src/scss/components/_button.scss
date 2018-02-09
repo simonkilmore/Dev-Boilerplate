@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.btn-solid {
+  display: inline-block;
+  background: $sub-color;
+  padding: 12px 24px;
+  text-align: center;
+  color: $off-white;
+  font-family: $heading-stack;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-click {
+  
+  border: 0;
+}
+
+.btn-inactive {
+  background: #bcbcbc;
+    color: #7d7d7d;
+  margin: 6px 0;
+}

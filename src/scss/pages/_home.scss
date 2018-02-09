@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.test {
+	background-image: linear-gradient(to top, #D7D 0%, #068 100%);
+	border-radius: 4px;
+	box-shadow: 0px 0px 4px 0px #ffffff; 
+	box-sizing: border-box;
+	column-count: 2;
+	animation: myanim 5s infinite;
+	}
+	
+@keyframes myanim {
+  0%   { opacity: 0.0; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1.0; }
+}
