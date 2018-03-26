@@ -3,14 +3,20 @@
 // -----------------------------------------------------------------------------
 
 @mixin variable-container {
-    @include outer-container(100%);
-    @include padding(0 15px);
-    @include media($sm)  {max-width: 540px;}
-    @include media($md) {max-width: 720px;}
-    @include media($lg)  {max-width: 960px;}
-    @include media($xl)  {max-width: 1140px;}
+  @include padding(0 16px);
+  @include media($sm) {
+    max-width: 540px;
+  }
+  @include media($md) {
+    max-width: 720px;
+  }
+  @include media($lg) {
+    max-width: 960px;
+  }
+  @include media($xl) {
+    max-width: 1140px;
+  }
 }
-
 
 /* Calculate fluid ratio based on two dimensions (width/height) */
 @mixin fluid-ratio($large-size, $small-size) {
@@ -25,10 +31,9 @@
   height: $height;
 
   background-size: cover;
-  -moz-background-size: cover;  /* Firefox 3.6 */
-  background-position: center;  /* Internet Explorer 7/8 */
+  -moz-background-size: cover; /* Firefox 3.6 */
+  background-position: center; /* Internet Explorer 7/8 */
 }
-
 
 /// Defines a vector svg as bg image with png fallback
 /// Usage
@@ -37,10 +42,9 @@
 ///    }
 ///
 @mixin vector-bg-with-fallback($name) {
-  background-image: url('../img/#{$name}.png');
-  background-image: none, url('../img/#{$name}.svg');
+  background-image: url("../img/#{$name}.png");
+  background-image: none, url("../img/#{$name}.svg");
 }
-
 
 /// Mixin helping defining both `width` and `height` simultaneously.
 ///
