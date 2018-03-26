@@ -2,22 +2,6 @@
 // This file contains all application-wide Sass mixins.
 // -----------------------------------------------------------------------------
 
-@mixin variable-container {
-  @include padding(0 16px);
-  @include media($sm) {
-    max-width: 540px;
-  }
-  @include media($md) {
-    max-width: 720px;
-  }
-  @include media($lg) {
-    max-width: 960px;
-  }
-  @include media($xl) {
-    max-width: 1140px;
-  }
-}
-
 /* Calculate fluid ratio based on two dimensions (width/height) */
 @mixin fluid-ratio($large-size, $small-size) {
   $width-large: nth($large-size, 1);
